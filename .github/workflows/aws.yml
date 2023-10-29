@@ -39,7 +39,7 @@ run: |
   zip -r npmfiles.zip npmfiles
 name: Commit and Push Zip Folder
 run: |
-  git config --local user.email "tlelievr@purdue.edu"
+  git config --local user.email ""
   git config --local user.name "GitHub Action"# Add and commit the zip folder
   git add npmfiles.zip
   git commit -m "Add my_folder.zip"
