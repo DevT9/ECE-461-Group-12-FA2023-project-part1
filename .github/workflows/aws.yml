@@ -27,7 +27,7 @@ name: Build
   run: npm run build  # Replace with your build command
 name: Commit and Push Build Artifacts
 run: |
-  git config --global user.email "tlelievr@purdue.edu"
+  git config --global user.email "
   git config --global user.name "GitHub Actions"
   git add dist
   git commit -m "Add build artifacts"
