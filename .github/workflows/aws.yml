@@ -27,7 +27,7 @@ name: Build
   run: npm run build  # Replace with your build command
 name: Commit and Push Build Artifacts
 run: |
-  git config --global user.email "
+  git config --global user.email "devt1525@gmail.com"
   git config --global user.name "GitHub Actions"
   git add dist
   git commit -m "Add build artifacts"
@@ -39,7 +39,7 @@ run: |
   zip -r npmfiles.zip npmfiles
 name: Commit and Push Zip Folder
 run: |
-  git config --local user.email ""
+  git config --local user.email "devt1525@gmail.com"
   git config --local user.name "GitHub Action"# Add and commit the zip folder
   git add npmfiles.zip
   git commit -m "Add my_folder.zip"
