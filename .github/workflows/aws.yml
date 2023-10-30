@@ -23,7 +23,7 @@ name: Setup Node.js
     
 name: Install dependencies
     run: npm install 
-  run: npm run build  # Replace with your build command
+  run: npm run build
 name: Commit and Push Build Artifacts
 run: |
   git config --global user.email "devt1525@gmail.com"
